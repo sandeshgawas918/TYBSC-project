@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+
+a:hover{
+    color:yellow;
+}
+.navbar{
+    font-size: 20px;
+    padding: 20px;
+}
+.navbar-brand{
+    font-size: 30px;
+}
+.landing{
+    background: url(img\online-course-g73c321ab6_1920.jpg);
+    background-size:cover;
+    height: 80vh;
+    /* width: 198vh; */
+    margin-top: 70px;
+    margin-right: 0px;
+}
+.intext{
+    margin-top: 100px;
+    text-shadow: 0 2px 3px black;
+}
+
+.f-img{
+    height: 70px;
+}
+.dest-card{
+    border-radius: 7px !important;
+}
+.dest-img{
+    margin-top: 0px;
+    /* border-radius: 7px !important; */
+    position: relative;
+    height: 270px;
+}
+
+.dest-tour h4{
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-left: 0;
+}
+.dest-tour{
+    position: absolute;
+    bottom: 0;
+    text-align: right;
+    color: white;
+    padding: 5px 10px;
+    background-color: rgb(255, 102, 0);
+    border-radius: 0 20px 20px 0;
+    width: 40%;
+    transition: all 0.5s;
+}
+.dest-tour:hover{
+  width: 50%;
+  cursor: pointer;
+  background-color: orangered;
+}
+
+
+.btn .bg-teal {
+    font-family:'Ubuntu', sans-serif;
+    background-color: rgb(15, 94, 94);
+}
+
+.image {
+    height: 75vh;
+    width: 100%;
+}
+
+/* .primary{
+    background-color: teal;
+} */
+.bg-grey {
+    background-color: rgb(65, 61, 61);
+}
+
+.card {
+    box-shadow: 0 5px 10px black;
+}
+
+.bg-teal .btn {
+    border-radius: 20px;
+}
+
+.bg-light-grey {
+    background: linear-gradient(45deg, purple, deeppink);
+}
+
+
+.login-modal{
+    /* width: 400px; */
+    margin-top: 120px;
+    
+}
+.login-form{
+    margin-top: -7px;
+}
